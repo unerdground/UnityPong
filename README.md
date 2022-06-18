@@ -1,2 +1,7 @@
-# UnityPong
-Unity Pong implementation with no native Unity physics used
+# Unity Pong
+## Overwiev
+<p>Classic 2-player Pong with slight gameplay improvements implementation in Unity, with no Unity physics used. Adapted for 16:9 screen only.</p>
+
+## Details
+<li>Ball changes color on each screen border or paddle hit; Can be turned off by deleting/commenting lines 42 and 64 in Assets/Scripts/ballController.cs
+<li>Ball speed increases on each paddle hit; Can be turned off by deleting/commenting line 63 in Assets/Scripts/ballController.cs
