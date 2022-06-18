@@ -16,6 +16,7 @@ public class PaddleController : MonoBehaviour
         var size = transform.localScale;
         size.y = paddleSize;
         transform.localScale = size;
+        resetPosition();
     }
 
     void Update()
@@ -43,6 +44,7 @@ public class PaddleController : MonoBehaviour
             shouldMove = false;
         } else {
             shouldMove = true;
+            //Arrow up gives positive input, down - negative
             moveUp = (input > 0);
         }
     }

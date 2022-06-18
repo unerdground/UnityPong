@@ -28,8 +28,7 @@ public class ballController : MonoBehaviour
 
         renderer = this.GetComponent<Renderer>();
 
-        vectorX = Random.Range(-1.0f, 1.0f);
-        vectorY = Random.Range(-1.0f, 1.0f);
+        resetPosition();
     }
 
     // Random color assigned every time ball hits paddle or screen border
